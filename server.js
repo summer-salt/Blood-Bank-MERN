@@ -27,4 +27,4 @@ app.use("/api/v1/admin", require("./routes/adminRoutes.js"));
 
 const PORT = process.env.PORT || 8080;
 
-app.listen(PORT, ()=> console.log(`Server running in ${process.env.DEV_MODE} on ${process.env.PORT}`.bgBlue.white ));
+app.listen(PORT, ()=> console.log(`Server running on port ${PORT}`));
