@@ -11,7 +11,7 @@
     "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Archi Sharma",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
